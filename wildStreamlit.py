@@ -71,7 +71,7 @@ if menu == 'Intro':
     st.markdown('---')
     st.write()
     st.write("Extrait du dataframe, limité à 1000 lignes, et aux colonnes les plus importantes pour l'analyse")
-    st.dataframe(perfect.head(1000))
+    st.dataframe(df.head(1000))
     st.write()
     st.markdown("---")
 
