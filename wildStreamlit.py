@@ -76,7 +76,7 @@ if menu == 'Intro':
     st.markdown("---")
 
     #video de fin
-    video_file = open(' California wildfire.mp4', 'rb')
+    video_file = open('California wildfire.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
 
